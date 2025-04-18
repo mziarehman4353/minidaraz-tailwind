@@ -1,3 +1,12 @@
+"homepage": "https://mziarehman4353.github.io/minidaraz-tailwind"
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+
+
 {
   "name": "minidaraz",
   "version": "0.1.0",
@@ -10,6 +19,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.16",
     "tailwindcss": "^3.4.17"
   },
