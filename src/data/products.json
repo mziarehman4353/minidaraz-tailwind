@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "title": "HP Laptop 15s",
+      "price": 599,
+      "category": "Laptops",
+      "image": "https://placehold.co/300x200?text=HP+Laptop"
+    },
+    {
+      "id": 2,
+      "title": "Samsung Galaxy S21",
+      "price": 799,
+      "category": "Mobiles",
+      "image": "https://placehold.co/300x200?text=Galaxy+S21"
+    },
+    {
+      "id": 3,
+      "title": "Apple Watch Series 7",
+      "price": 399,
+      "category": "Watches",
+      "image": "https://placehold.co/300x200?text=Apple+Watch"
+    },
+    {
+      "id": 4,
+      "title": "Dell XPS 13",
+      "price": 999,
+      "category": "Laptops",
+      "image": "https://placehold.co/300x200?text=Dell+XPS+13"
+    },
+    {
+      "id": 5,
+      "title": "iPhone 14 Pro",
+      "price": 1099,
+      "category": "Mobiles",
+      "image": "https://placehold.co/300x200?text=iPhone+14+Pro"
+    }
+  ]
+  
