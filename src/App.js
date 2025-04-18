@@ -3,6 +3,19 @@ import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-route
 import productsData from "./data/products.json";
 import Checkout from "./checkout";
 import AdminDashboard from "./AdminDashboard"; // Ensure this file exists
+import { HashRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/checkout" element={<Checkout />} />
+        <Route path="/admin" element={<AdminDashboard />} />
+      </Routes>
+    </Router>
+  );
+}
+
 
 function Home({ isAdmin, setIsAdmin }) {
   const [search, setSearch] = useState("");
